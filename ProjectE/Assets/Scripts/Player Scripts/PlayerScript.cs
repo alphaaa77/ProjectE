@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    public float JumpForce;
+    public float JumpForce = 600;
     [SerializeField] bool isGrounded = false;
     Rigidbody2D rigidBody;
     // Start is called before the first frame update
